@@ -622,5 +622,19 @@
         "group": "premium",
         "enabled": true,
         "priority": 22
-    }
+    },
+    {
+    "id": "my_source_1",
+    "name": "我的精选源",
+    "baseUrl": "https://api.example.com/vod",
+    "group": "normal",
+    "priority": 1
+  },
+  {
+    "id": "premium_source_1",
+    "name": "特殊资源",
+    "baseUrl": "https://api.premium-source.com/vod",
+    "group": "premium",
+    "enabled": true
+  }
 ]
