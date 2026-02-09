@@ -58,7 +58,6 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                             </a>  
 */}
 
-
 <a
   href="https://lidaguo.dpdns.org/"
   target="_blank"
@@ -66,17 +65,12 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
   className="group flex items-center gap-1.5 sm:gap-2 px-3 h-8 sm:h-10 flex-shrink-0 rounded-full bg-[var(--glass-bg)] border border-[var(--glass-border)] text-[var(--text-color)] hover:bg-[color-mix(in_srgb,var(--accent-color)_10%,transparent)] transition-all duration-200 cursor-pointer"
   aria-label="访问李大国博客"
 >
-  {/* 图标 */}
   <Icons.Github size={20} />
-  {/* 文字 - 可根据需要调整 text-[11px] 这个值 */}
-  <span className="text-[7px] sm:text-xs font-medium">
-    大国解说
+  {/* 修改点：在文本中插入换行符，并添加控制换行和行高的样式 */}
+  <span className="text-[11px] sm:text-xs font-medium leading-tight text-center whitespace-pre-line">
+    大国<br />解说
   </span>
 </a>
-
-
-
-
                         
                             <Link
                                 href={settingsHref}
