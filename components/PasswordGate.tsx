@@ -172,7 +172,7 @@ export function PasswordGate({ children, hasEnvPassword: initialHasEnvPassword }
                     </div>
 
                     <div className="text-center space-y-2">
-                        <h2 className="text-2xl font-bold">DGVideo大国影视</h2>
+                        <h2 className="text-2xl font-bold">DGVideo-大国影视</h2>
                         <p className="text-[var(--text-color-secondary)]">请输入访问密码以继续，可联系李大国定制个人专属资源</p>
                     </div>
 
@@ -185,7 +185,7 @@ export function PasswordGate({ children, hasEnvPassword: initialHasEnvPassword }
                                     setPassword(e.target.value);
                                     setError(false);
                                 }}
-                                placeholder="密码是1"
+                                placeholder="密码暂时是1"
                                 className={`w-full px-4 py-3 rounded-[var(--radius-2xl)] bg-[var(--glass-bg)] border ${error ? 'border-red-500' : 'border-[var(--glass-border)]'
                                     } focus:outline-none focus:border-[var(--accent-color)] focus:shadow-[0_0_0_3px_color-mix(in_srgb,var(--accent-color)_30%,transparent)] transition-all duration-[0.4s] cubic-bezier(0.2,0.8,0.2,1) text-[var(--text-color)] placeholder-[var(--text-color-secondary)]`}
                                 autoFocus
