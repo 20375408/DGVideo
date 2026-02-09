@@ -52,7 +52,10 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                             >
                                 <Icons.Github size={20} />
                                   {/* 新增的文字，在手机上隐藏，在电脑上显示 */}
-  <span className="hidden sm:inline text-sm font-medium">
+  {/*  <span className="hidden sm:inline text-sm font-medium">
+    大国解说
+  </span>*/}
+                                  <span className="text-xs sm:text-sm font-medium">
     大国解说
   </span>
                             </a>
