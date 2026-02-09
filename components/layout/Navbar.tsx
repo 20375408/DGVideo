@@ -32,7 +32,7 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                                 <Image
                                     src="/icon.png"
                                     alt={siteConfig.name}
-                                    width={40}
+                                    width={20}
                                     height={40}
                                     className="object-contain"
                                 />
