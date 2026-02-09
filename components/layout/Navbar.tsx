@@ -1,4 +1,3 @@
-
   {/*
 import Link from 'next/link';
 import Image from 'next/image';
@@ -45,8 +44,7 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                         </Link>
 
                         <div className="flex items-center gap-2 sm:gap-3 flex-shrink-0">
-  */}
-
+*/}
 import Link from 'next/link';
 import Image from 'next/image';
 // 移除原来的ThemeSwitcher导入
