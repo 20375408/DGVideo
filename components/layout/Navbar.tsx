@@ -47,15 +47,24 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                                 href="https://lidaguo.dpdns.org/"
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                {/
+                                *以下为源图标，手机不显示，现把代码改成手机也显示图标，// 重点修改这一行：将 hidden sm:flex 替换为 flex
                                 className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-[var(--radius-full)] bg-[var(--glass-bg)] border border-[var(--glass-border)] text-[var(--text-color)] hover:bg-[color-mix(in_srgb,var(--accent-color)_10%,transparent)] transition-all duration-200 cursor-pointer hidden sm:flex"
                                 aria-label="李大国博客"
+                                */}
+ className="w-8 h-8 sm:w-10 sm:h-10 flex items-center justify-center rounded-[var(--radius-full)] bg-[var(--glass-bg)] border border-[var(--glass-border)] text-[var(--text-color)] hover:bg-[color-mix(in_srgb,var(--accent-color)_10%,transparent)] transition-all duration-200 cursor-pointer flex"
+                                aria-label="李大国博客"
+                                
                             >
                                 <Icons.Github size={20} />
-                                  {/* 新增的文字，在手机上隐藏，在电脑上显示 */}
-  {/*  <span className="hidden sm:inline text-sm font-medium">
+                                新增的文字，在手机上隐藏，在电脑上显示
+  {/*
+  新增的文字，在手机上隐藏，在电脑上显示
+  <span className="hidden sm:inline text-sm font-medium">
     大国解说
-  </span>*/}
-                                  <span className="text-xs sm:text-sm font-medium">
+  </span>
+  */}
+     <span className="text-xs sm:text-sm font-medium">
     大国解说
   </span>
                             </a>
