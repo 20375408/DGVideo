@@ -28,7 +28,7 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                             className="flex items-center gap-2 sm:gap-3 hover:opacity-80 transition-opacity cursor-pointer min-w-0"
                             onClick={onReset}
                         >
-                            <div className="w-8 h-8 sm:w-10 sm:h-10 relative flex items-center justify-center flex-shrink-0">
+                            <div className="w-4 h-8 sm:w-5 sm:h-10 relative flex items-center justify-center flex-shrink-0">
                                 <Image
                                     src="/icon.png"
                                     alt={siteConfig.name}
