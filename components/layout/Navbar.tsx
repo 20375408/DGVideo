@@ -51,6 +51,10 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
                                 aria-label="李大国博客"
                             >
                                 <Icons.Github size={20} />
+                                  {/* 新增的文字，在手机上隐藏，在电脑上显示 */}
+  <span className="hidden sm:inline text-sm font-medium">
+    个人博客：大国解说
+  </span>
                             </a>
                             <Link
                                 href={settingsHref}
