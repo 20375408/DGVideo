@@ -65,7 +65,7 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
   className="group flex items-center gap-1.5 sm:gap-2 px-3 h-8 sm:h-10 flex-shrink-0 rounded-full bg-[var(--glass-bg)] border border-[var(--glass-border)] text-[var(--text-color)] hover:bg-[color-mix(in_srgb,var(--accent-color)_10%,transparent)] transition-all duration-200 cursor-pointer"
   aria-label="访问李大国博客"
 >
-  <Icons.Github size={20} />
+  <Icons.Github size={10} />
   {/* 修改点：在文本中插入换行符，并添加控制换行和行高的样式 */}
   <span className="text-[11px] sm:text-xs font-medium leading-tight text-center whitespace-pre-line">
     大国<br />解说
