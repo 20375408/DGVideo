@@ -173,7 +173,7 @@ export function PasswordGate({ children, hasEnvPassword: initialHasEnvPassword }
 
                     <div className="text-center space-y-2">
                         <h2 className="text-2xl font-bold">DGVideo-大国影视</h2>
-                        <p className="text-[var(--text-color-secondary)]">请输入访问密码以继续，可联系李大国定制个人专属资源</p>
+                        <p className="text-[var(--text-color-secondary)]">请输入访问密码以继续，可联系李大国定制个人专属页面或资源</p>
                     </div>
 
                     <div className="w-full space-y-4">
