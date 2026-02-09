@@ -63,9 +63,9 @@ export function Navbar({ onReset, isPremiumMode = false }: NavbarProps) {
     大国解说
   </span>
   */}
-     <span className="text-xs sm:text-sm font-medium">
-    大国解说
-  </span>
+<span className="text-[9px] sm:text-xs font-medium">
+  大国解说
+</span>
                             </a>
                             <Link
                                 href={settingsHref}
