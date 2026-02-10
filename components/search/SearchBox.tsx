@@ -13,7 +13,7 @@ interface SearchBoxProps {
     placeholder?: string;
 }
 
-export function SearchBox({ onSearch, onClear, initialQuery = '', placeholder = '搜索框🔍定制qq20375408，本框可搜索电影、电视剧、综艺...' }: SearchBoxProps) {
+export function SearchBox({ onSearch, onClear, initialQuery = '', placeholder = '搜索🔍内容定制qq20375408 本框可搜索电影、电视剧、综艺...' }: SearchBoxProps) {
     const [query, setQuery] = useState(initialQuery);
     const inputRef = useRef<HTMLInputElement>(null);
 
