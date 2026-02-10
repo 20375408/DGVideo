@@ -53,6 +53,8 @@ export function ThemeSwitcher() {
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
         </svg>
       </button>
+
+{/*
       <button
         onClick={() => setTheme('system')}
         className={`
@@ -74,6 +76,8 @@ export function ThemeSwitcher() {
           <line x1="12" y1="17" x2="12" y2="21"></line>
         </svg>
       </button>
+*/}
+      
     </div>
   );
 }
