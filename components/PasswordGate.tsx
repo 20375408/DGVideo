@@ -185,7 +185,7 @@ export function PasswordGate({ children, hasEnvPassword: initialHasEnvPassword }
                                     setPassword(e.target.value);
                                     setError(false);
                                 }}
-                                placeholder="密码暂时是1"
+                                placeholder="请输入密码"
                                 className={`w-full px-4 py-3 rounded-[var(--radius-2xl)] bg-[var(--glass-bg)] border ${error ? 'border-red-500' : 'border-[var(--glass-border)]'
                                     } focus:outline-none focus:border-[var(--accent-color)] focus:shadow-[0_0_0_3px_color-mix(in_srgb,var(--accent-color)_30%,transparent)] transition-all duration-[0.4s] cubic-bezier(0.2,0.8,0.2,1) text-[var(--text-color)] placeholder-[var(--text-color-secondary)]`}
                                 autoFocus
